@@ -2,44 +2,52 @@
 
 body {
   font:1em Helvetica, sans-serif;
-  padding:4px;
+  padding:0px;
+  margin:0px;
 }
 
 h1 {
   margin-top:0;
 }
-
-#account {
-  float:right;
-}
-
-#profile {
-  border:4px solid #edd;
-  background:#fee;
-  padding:8px;
-  margin-bottom:8px;
+#container {
+  width:650px;
+  margin:10px auto;
+  padding:5px 0px 0px 0px;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.6);
 }
 
 #items {
-  border:4px solid #dde;
-  background:#eef;
-  padding:8px;
-  width:60%;
+  text-align:left;
+  background:#ccc;
+  padding:10px 12px;
+  width:226px;
   float:left;
 }
 
-#sidebar {
-  border:4px solid #dfd;
+#info {
+  border-top:1px solid #ccc;
   padding:8px;
   float:right;
-  width:30%;
+  width:384px;
+  text-align:left;
 }
 
 #items li {
-  border:4px solid #f5f5ff;
   background:#fff;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-box-shadow:0px 1px 2px rgba(0,0,0,0.5);
   padding:8px;
-  margin:4px 0;
+  margin:6px 0;
+  width:inherit;
+  color:#000;
+}
+#items li:hover, #items li:active {
+  background:#eeeeee;
+  -webkit-box-shadow:0px -1px 2px rgba(0,0,0,0.5);
 }
 
 form {
@@ -48,28 +56,13 @@ form {
   background-color:#ddd;  
 }
 
-div.avatar {
-  padding:2px;
-  padding-bottom:0;
-  margin-right:4px;
-  float:left;
-  font-size:0.78em;
-  width : 60px;
-  height : 60px;
-  text-align: center;
-}
-
-div.avatar .name {
+.name {
   padding-top:2px;
-}
-
-div.avatar img {
-  margin:0 auto;
-  padding:0;
-  width : 40px;
-  height : 40px;
+  cursor:pointer;
 }
 
 #items ul {
   list-style: none;
+  margin:0px;
+  padding:0px;
 }

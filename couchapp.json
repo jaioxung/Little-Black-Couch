@@ -1,4 +1,1 @@
-{
-    "name": "Little Black Couch",
-    "description": "A contacts management CouchApp."
-}
+{"description": "CouchApp", "name": "Name of your CouchApp"}
