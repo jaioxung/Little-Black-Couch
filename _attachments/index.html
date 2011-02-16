@@ -10,7 +10,7 @@
 
     <div id="items"></div>
 
-    <div id="info">Contact info will go here...</div>
+    <div id="info"></div>
     <div style="clear:both;"></div>
     </div>
     
@@ -19,6 +19,7 @@
   <script type="text/javascript" charset="utf-8">
     $.couch.app(function(app) {
       $("#items").evently("items", app);
+      $("#info").evently("info", app);
     });
   </script>
 </html>
