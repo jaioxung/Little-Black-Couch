@@ -20,6 +20,7 @@
     $.couch.app(function(app) {
       $("#items").evently("items", app);
       $("#info").evently("info", app);
+      $.evently.connect("#items", "#info", ["detail"]);
     });
   </script>
 </html>
