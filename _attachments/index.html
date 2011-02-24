@@ -10,7 +10,7 @@
 
     <div id="items"></div>
 
-    <div id="info"></div>
+    <div id="contact"></div>
     <div style="clear:both;"></div>
     </div>
     
@@ -19,8 +19,8 @@
   <script type="text/javascript" charset="utf-8">
     $.couch.app(function(app) {
       $("#items").evently("items", app);
-      $("#info").evently("info", app);
-      $.evently.connect("#items", "#info", ["detail"]);
+      $("#contact").evently("contact", app);
+        $.evently.connect("#items", "#contact", ["detail"]);
     });
   </script>
 </html>
